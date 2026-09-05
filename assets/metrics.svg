@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="175" viewBox="0 0 1200 175" role="img" aria-label="Selected engineering scope metrics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#03080f"/></linearGradient>
+    <linearGradient id="a" x1="0" x2="1"><stop stop-color="#22c55e"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="175" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="173" rx="19" fill="none" stroke="#183047"/>
+  <path d="M35 22 H1165" stroke="url(#a)" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <animate attributeName="stroke-dasharray" values="0 1130;250 880;0 1130" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(150 92)"><text fill="#f8fafc" font-size="38" font-weight="750">~500K</text><text y="32" fill="#7dd3fc" font-size="15" font-weight="600">RANKING IMPRESSIONS / DAY</text></g>
+    <g transform="translate(450 92)"><text fill="#f8fafc" font-size="38" font-weight="750">~20K</text><text y="32" fill="#86efac" font-size="15" font-weight="600">ACCOMMODATIONS</text></g>
+    <g transform="translate(750 92)"><text fill="#f8fafc" font-size="38" font-weight="750">~14 mo</text><text y="32" fill="#c4b5fd" font-size="15" font-weight="600">TECHNICAL LEADERSHIP</text></g>
+    <g transform="translate(1050 92)"><text fill="#f8fafc" font-size="38" font-weight="750">~10 GB</text><text y="32" fill="#93c5fd" font-size="15" font-weight="600">EVENT DATA / DAY</text></g>
+  </g>
+  <g fill="#38bdf8" filter="url(#g)"><circle cx="35" cy="22" r="4"><animate attributeName="cx" values="35;1165;35" dur="6s" repeatCount="indefinite"/></circle></g>
+</svg>
