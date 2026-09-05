@@ -1,41 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Arash Safari — Search, Ranking and Decision Systems</title>
-  <desc id="desc">Minimal animated profile banner for search, ranking and decision systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Arash Safari — Machine Learning Engineer</title>
+  <desc id="desc">Editorial profile masthead with a restrained animated systems motif.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0f17"/>
-      <stop offset="1" stop-color="#05080d"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#07090c"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#334155"/>
-      <stop offset="0.5" stop-color="#60a5fa"/>
-      <stop offset="1" stop-color="#334155"/>
-    </linearGradient>
-    <filter id="glow" x="-200%" y="-200%" width="400%" height="400%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7db5ff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#7db5ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="5"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#paper)"/>
 
+  <!-- editorial rules -->
+  <line x1="54" y1="48" x2="1146" y2="48" stroke="#272b31" stroke-width="1"/>
+  <line x1="54" y1="370" x2="1146" y2="370" stroke="#272b31" stroke-width="1"/>
+
+  <!-- identity -->
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="58" y="82" fill="#94a3b8" font-size="16" letter-spacing="6">ARASH SAFARI</text>
-    <text x="58" y="145" fill="#f8fafc" font-size="46" font-weight="700">Machine Learning Engineer</text>
-    <text x="58" y="192" fill="#cbd5e1" font-size="27">Search · Ranking · Decision Systems</text>
+    <text x="58" y="91" fill="#7f8792" font-size="13" letter-spacing="5">ARASH SAFARI / 2026</text>
+    <text x="58" y="174" fill="#f5f2ea" font-size="64" font-weight="600" letter-spacing="-2">Machine Learning</text>
+    <text x="58" y="239" fill="#f5f2ea" font-size="64" font-weight="600" letter-spacing="-2">Engineer</text>
+    <text x="61" y="298" fill="#9aa3af" font-size="20" letter-spacing="1">SEARCH · RANKING · DECISION SYSTEMS</text>
+    <text x="61" y="337" fill="#5f6874" font-size="14">production systems / marketplace ML / experimentation</text>
   </g>
 
-  <g transform="translate(58 240)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">
-    <line x1="0" y1="0" x2="1080" y2="0" stroke="url(#line)" stroke-width="2"/>
-    <circle cx="120" cy="0" r="5" fill="#64748b"/>
-    <circle cx="520" cy="0" r="5" fill="#64748b"/>
-    <circle cx="920" cy="0" r="5" fill="#64748b"/>
-    <text x="95" y="30" fill="#64748b">SEARCH</text>
-    <text x="493" y="30" fill="#64748b">RANK</text>
-    <text x="885" y="30" fill="#64748b">DECIDE</text>
-    <circle r="6" fill="#60a5fa" filter="url(#glow)">
-      <animate attributeName="cx" values="120;520;920;120" keyTimes="0;.42;.84;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".55;1;1;.55" dur="6s" repeatCount="indefinite"/>
+  <!-- restrained systems drawing -->
+  <g transform="translate(760 92)">
+    <circle cx="172" cy="116" r="128" fill="url(#halo)"/>
+
+    <path id="orbit" d="M28 178 C72 72 134 34 222 48 C286 58 328 112 311 174 C296 228 240 252 181 233 C131 216 111 169 137 128 C158 95 202 87 235 109"
+          fill="none" stroke="#353b44" stroke-width="1.4"/>
+    <path d="M40 209 C94 137 159 102 244 98" fill="none" stroke="#1e242b" stroke-width="1"/>
+    <path d="M76 54 C142 116 214 153 320 172" fill="none" stroke="#1e242b" stroke-width="1"/>
+
+    <g fill="#626c79">
+      <circle cx="28" cy="178" r="3"/>
+      <circle cx="137" cy="128" r="3"/>
+      <circle cx="235" cy="109" r="3"/>
+      <circle cx="311" cy="174" r="3"/>
+      <circle cx="181" cy="233" r="3"/>
+    </g>
+
+    <circle r="16" fill="#7db5ff" opacity=".08" filter="url(#soft)">
+      <animateMotion dur="9s" repeatCount="indefinite">
+        <mpath href="#orbit"/>
+      </animateMotion>
     </circle>
+    <circle r="4.5" fill="#91bdff">
+      <animateMotion dur="9s" repeatCount="indefinite">
+        <mpath href="#orbit"/>
+      </animateMotion>
+    </circle>
+
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" fill="#515965" letter-spacing="2">
+      <text x="8" y="201">OBSERVE</text>
+      <text x="116" y="115">MODEL</text>
+      <text x="228" y="96">RANK</text>
+      <text x="285" y="198">DECIDE</text>
+    </g>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" fill="#555d68" letter-spacing="2">
+    <text x="58" y="397">SELECTED ENGINEERING WORK BELOW</text>
+    <text x="1010" y="397">01 — 06</text>
   </g>
 </svg>
