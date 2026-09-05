@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Arash Safari — Search, Ranking and Decision Systems</title>
+  <desc id="desc">Animated technical profile banner showing a flow from data to search, ranking and decisions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#02070d"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="0.48" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#163047" stroke-width="1" opacity=".28"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="58" y="70" fill="#93a4b8" font-size="17" letter-spacing="7">ARASH SAFARI</text>
+    <text x="58" y="137" fill="#f1f5f9" font-size="45" font-weight="700">Machine Learning Engineer</text>
+    <text x="58" y="184" fill="#60a5fa" font-size="31" font-weight="600">Search, Ranking &amp; Decision Systems</text>
+    <text x="58" y="235" fill="#b8c5d3" font-size="18">Production ML · Marketplace Search · Personalization · Experimentation</text>
+    <text x="58" y="269" fill="#7f91a5" font-size="16">From ambiguous product problems to measurable, auditable systems.</text>
+  </g>
+
+  <path id="route" d="M730 292 C790 260 815 230 845 202 C875 175 908 176 934 145 C966 107 1005 112 1033 83 C1066 48 1104 54 1140 35"
+        fill="none" stroke="#20384e" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+  <path d="M730 292 C790 260 815 230 845 202 C875 175 908 176 934 145 C966 107 1005 112 1033 83 C1066 48 1104 54 1140 35"
+        fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">
+    <g transform="translate(730 292)"><circle r="8" fill="#22c55e" filter="url(#glow)"><animate attributeName="r" values="8;11;8" dur="2.8s" repeatCount="indefinite"/></circle><text x="18" y="5" fill="#a7f3d0">DATA</text></g>
+    <g transform="translate(845 202)"><circle r="8" fill="#38bdf8" filter="url(#glow)"><animate attributeName="r" values="8;11;8" dur="2.8s" begin=".7s" repeatCount="indefinite"/></circle><text x="18" y="5" fill="#bae6fd">SEARCH</text></g>
+    <g transform="translate(934 145)"><circle r="8" fill="#818cf8" filter="url(#glow)"><animate attributeName="r" values="8;11;8" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle><text x="18" y="5" fill="#c7d2fe">RANKING</text></g>
+    <g transform="translate(1140 35)"><circle r="8" fill="#86efac" filter="url(#glow)"><animate attributeName="r" values="8;11;8" dur="2.8s" begin="2.1s" repeatCount="indefinite"/></circle><text x="-155" y="-10" fill="#bbf7d0">BETTER DECISIONS</text></g>
+  </g>
+
+  <circle r="5" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#route"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">
+    <rect x="58" y="305" width="132" height="34" rx="10" fill="#0d2236" stroke="#1f405e"/>
+    <text x="78" y="327" fill="#dbeafe">6+ years</text>
+    <rect x="202" y="305" width="170" height="34" rx="10" fill="#0d2236" stroke="#1f405e"/>
+    <text x="222" y="327" fill="#dbeafe">Production ML</text>
+    <rect x="384" y="305" width="170" height="34" rx="10" fill="#0d2236" stroke="#1f405e"/>
+    <text x="404" y="327" fill="#dbeafe">Systems at scale</text>
+  </g>
+</svg>
