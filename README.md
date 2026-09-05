@@ -35,16 +35,6 @@ Discrete-time modeling of booking and close hazards across lead time, with expos
 
 **Technical article:** planned.
 
-### Streaming personalization infrastructure
-Stateful personalization scoring with Kafka and Spark Structured Streaming around user/item representations, vector scoring, top-K generation, and fallback paths.
-
-**Technical article:** planned.
-
-### Experiment integrity for ranking systems
-Assignment, delivery, logging integrity, SRM checks, mechanism diagnostics, and decision-readiness before interpreting experiment outcomes.
-
-**Technical article:** planned.
-
 ### Satellite ADCS Simulation
 Spacecraft attitude-determination and control simulation from my aerospace/control background.
 
