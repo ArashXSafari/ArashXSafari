@@ -3,9 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arashsafari95/">LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:ArashXSafari@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/arashsafari95/" title="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/8b949e" height="21" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:ArashXSafari@gmail.com" title="Email">
+    <img src="https://cdn.simpleicons.org/gmail/8b949e" height="21" alt="Email" />
+  </a>
 </p>
 
 <br/>
@@ -89,4 +93,22 @@ Booking probability through competing hazards
 
 ---
 
-<sub>Python · Go · SQL · Spark · Kafka · Elasticsearch · FastAPI · PostgreSQL · Docker</sub>
+<p align="center">
+  <img src="https://cdn.simpleicons.org/python/8b949e" height="24" alt="Python" title="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/go/8b949e" height="24" alt="Go" title="Go" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachespark/8b949e" height="24" alt="Apache Spark" title="Apache Spark" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachekafka/8b949e" height="24" alt="Apache Kafka" title="Apache Kafka" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/elasticsearch/8b949e" height="24" alt="Elasticsearch" title="Elasticsearch" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/8b949e" height="24" alt="FastAPI" title="FastAPI" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/8b949e" height="24" alt="PostgreSQL" title="PostgreSQL" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/8b949e" height="24" alt="Docker" title="Docker" />
+</p>
+
+<p align="center"><sub>Python · Go · Spark · Kafka · Elasticsearch · FastAPI · PostgreSQL · Docker</sub></p>
