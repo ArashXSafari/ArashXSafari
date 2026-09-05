@@ -3,97 +3,65 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arashsafari95/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:ArashXSafari@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ArashXSafari">GitHub</a>
+  <a href="https://www.linkedin.com/in/arashsafari95/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:ArashXSafari@gmail.com"><b>Email</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/ArashXSafari"><b>GitHub</b></a>
 </p>
 
-## What I work on
+<p align="center">
+  I build production machine-learning and search systems for marketplace products.<br/>
+  My strongest work sits at the boundary between <b>modeling</b>, <b>systems engineering</b>, and <b>decision-making under uncertainty</b>.
+</p>
 
-I build machine-learning and search systems for marketplace products, with experience spanning ranking, personalization, experimentation, decision systems, and large-scale data infrastructure.
+<p align="center">
+  <img src="./assets/metrics.svg" width="100%" alt="Selected engineering scope metrics" />
+</p>
 
-Over 6+ years, my work has progressed from analytics and data engineering into search/ranking engineering, technical leadership, and senior individual-contributor ML work. I am strongest at the boundary between modeling and systems engineering: turning ambiguous product problems into measurable formulations, production architectures, and auditable experiments.
+<p align="center">
+  <img src="./assets/showcase.svg" width="100%" alt="Selected projects and systems showcase" />
+</p>
 
-| Search & Ranking | Decision Systems | Experimentation | ML & Data Systems |
-| --- | --- | --- | --- |
-| Relevance, ranking, map ranking, personalization | Constrained optimization, marketplace objectives, feedback loops | A/B testing, experiment integrity, online/offline evaluation | Spark, Kafka, batch/stream processing, inference, observability |
+## Production work
 
-## Selected work
+I have worked across the full path from instrumentation and data infrastructure to search, ranking, personalization, optimization, experimentation, and production operation.
 
-<table>
-<tr>
-<td width="33%" valign="top">
+- **Search & ranking:** production ranking systems, MapRank, relevance logic, Go + Elasticsearch search infrastructure.
+- **Decision systems:** constrained marketplace ranking interventions, hourly PySpark optimization, auditable decision state, feedback/control-style formulations.
+- **Personalization:** Spark Structured Streaming + Kafka scoring infrastructure around user/item representations.
+- **Experimentation:** A/B testing, experiment-integrity checks, assignment/delivery diagnostics, online/offline evaluation.
+- **Data systems:** Snowplow, Spark, Kafka, Airflow, Hive/HDFS, Delta Lake, ClickHouse, production observability.
+- **Leadership:** approximately 14 months leading Data and Ranking teams while remaining technically hands-on.
 
-### Neshaneh
+## Selected production systems
 
-Geospatial data reconstruction and validation for Iranian administrative geography using official maps, automated extraction, georeferencing, topology checks, coverage-gap detection, and human review.
+### MapRank
+Solely designed and implemented from an interactive algorithm sandbox through the production Go search-service module for viewport-aware pin ranking, collision handling, adaptive clustering, and configuration-driven display budgets.
 
-`Python` `GIS` `FastAPI` `React` `GeoJSON`
+### Guarantee-ranking controller
+Built a live controller that translates marketplace financial state into constrained ranking interventions using hourly PySpark optimization, feasibility checks, auditable Delta decision logs, and Kafka publication.
 
-**Status:** preparing a public version.
+### Booking / close hazard framework
+Designed a discrete-time formulation connecting exposure, booking probability, and expected marketplace P&L, with a preliminary prototype on approximately 2.48M observations.
 
-</td>
-<td width="33%" valign="top">
-
-### Snowplow Validator
-
-Event-contract testing and validation system for analytics pipelines: test cases, automated execution, Snowplow Micro integration, findings, regression detection, auditability, and a review UI.
-
-`Python` `FastAPI` `PostgreSQL` `React` `Playwright`
-
-**Status:** preparing a public version.
-
-</td>
-<td width="33%" valign="top">
-
-### [Satellite ADCS Simulation](https://github.com/ArashXSafari/Satellite-ADCS-Simulation)
-
-Spacecraft attitude-determination and control simulation from my aerospace/control background.
-
-`Python` `Control Systems` `Simulation`
-
-</td>
-</tr>
-</table>
-
-## Systems I’ve built
-
-```text
-Data collection
-      ↓
-Processing & validation
-      ↓
-Modeling / ranking / optimization
-      ↓
-Experimentation
-      ↓
-Production & monitoring
-      ↓
-Better product decisions
-```
-
-Selected examples from production and applied work:
-
-- Built and operated ranking systems serving approximately **500K impressions/day** across roughly **20K accommodations**.
-- Solely designed and implemented **MapRank**, from an interactive algorithm sandbox through the production Go search-service module for viewport-aware pin ranking, collision handling, and adaptive clustering.
-- Built a live **guarantee-ranking controller** translating marketplace financial state into constrained ranking interventions using hourly PySpark optimization, auditable decision state, and Kafka publication.
-- Designed booking/close hazard and survival-style formulations connecting exposure, booking probability, and expected marketplace P&L.
-- Built personalization scoring infrastructure with Spark Structured Streaming and Kafka around inherited user/item representations.
-- Revived and expanded Snowplow event-data infrastructure, including impression-level instrumentation used for ranking and experimentation; pipelines processed approximately **10 GB/day** into Hive.
-- Led Data and Ranking teams for approximately **14 months**, covering technical direction, roadmap planning, hiring, mentoring, reviews, stakeholder management, and delivery.
+### Personalization infrastructure
+Engineered Spark Structured Streaming/Kafka scoring infrastructure around inherited user/item representations, including stateful event handling, vector scoring, top-K generation, and production-oriented fallback paths.
 
 ## Core stack
 
-**Languages** — Python, SQL, Go  
-**ML** — ranking, recommender systems, personalization, survival/hazard modeling, gradient boosting, scikit-learn  
-**Data & distributed systems** — Apache Spark, Kafka, Airflow, Hive/HDFS, Delta Lake, ClickHouse, Elasticsearch, Snowplow  
-**Services** — FastAPI, GraphQL, REST APIs, batch inference, model serving  
-**Engineering** — Docker, Linux, Git, CI/CD, production monitoring
+<table>
+<tr>
+<td width="20%"><b>Languages</b><br/>Python<br/>SQL<br/>Go</td>
+<td width="20%"><b>ML</b><br/>Ranking<br/>Recommenders<br/>Personalization<br/>Survival / hazard</td>
+<td width="20%"><b>Data systems</b><br/>Spark<br/>Kafka<br/>Airflow<br/>Hive / Delta</td>
+<td width="20%"><b>Search & services</b><br/>Elasticsearch<br/>FastAPI<br/>GraphQL<br/>REST APIs</td>
+<td width="20%"><b>Engineering</b><br/>Docker<br/>Linux<br/>Git / CI-CD<br/>Monitoring</td>
+</tr>
+</table>
 
 ## Background
 
-B.Sc. in Aerospace Engineering from K. N. Toosi University of Technology. My control and systems background continues to influence how I approach online decision-making, ranking, and marketplace optimization problems.
+B.Sc. in Aerospace Engineering from K. N. Toosi University of Technology. My control and systems background continues to influence how I approach ranking, online decision-making, and marketplace optimization problems.
 
-> I’m most interested in the boundary between machine learning and systems engineering: formulating the right problem, building the infrastructure, and operating it in the real world.
+> I am most interested in engineering systems that make difficult decisions measurable, testable, and operable in the real world.
