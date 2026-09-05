@@ -3,65 +3,53 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arashsafari95/"><b>LinkedIn</b></a>
+  <a href="https://www.linkedin.com/in/arashsafari95/">LinkedIn</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:ArashXSafari@gmail.com"><b>Email</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/ArashXSafari"><b>GitHub</b></a>
+  <a href="mailto:ArashXSafari@gmail.com">Email</a>
 </p>
 
-<p align="center">
-  I build production machine-learning and search systems for marketplace products.<br/>
-  My strongest work sits at the boundary between <b>modeling</b>, <b>systems engineering</b>, and <b>decision-making under uncertainty</b>.
-</p>
+## Selected work
 
-<p align="center">
-  <img src="./assets/metrics.svg" width="100%" alt="Selected engineering scope metrics" />
-</p>
+### Neshaneh
+Reconstructing and validating Iranian administrative geography from official map sources: extraction, georeferencing, topology checks, coverage-gap detection, and human review.
 
-<p align="center">
-  <img src="./assets/showcase.svg" width="100%" alt="Selected projects and systems showcase" />
-</p>
+**Public code:** preparing a clean release.
 
-## Production work
+### Snowplow Validator
+Executable event contracts for analytics pipelines: test cases, automated execution, Snowplow Micro, regression findings, auditability, and review tooling.
 
-I have worked across the full path from instrumentation and data infrastructure to search, ranking, personalization, optimization, experimentation, and production operation.
+**Public code:** preparing a clean release.
 
-- **Search & ranking:** production ranking systems, MapRank, relevance logic, Go + Elasticsearch search infrastructure.
-- **Decision systems:** constrained marketplace ranking interventions, hourly PySpark optimization, auditable decision state, feedback/control-style formulations.
-- **Personalization:** Spark Structured Streaming + Kafka scoring infrastructure around user/item representations.
-- **Experimentation:** A/B testing, experiment-integrity checks, assignment/delivery diagnostics, online/offline evaluation.
-- **Data systems:** Snowplow, Spark, Kafka, Airflow, Hive/HDFS, Delta Lake, ClickHouse, production observability.
-- **Leadership:** approximately 14 months leading Data and Ranking teams while remaining technically hands-on.
+### Map ranking
+Viewport-aware ranking for map search with collision handling, adaptive clustering, score-aware prioritization, and display-budget constraints.
 
-## Selected production systems
+**Technical article:** planned.
 
-### MapRank
-Solely designed and implemented from an interactive algorithm sandbox through the production Go search-service module for viewport-aware pin ranking, collision handling, adaptive clustering, and configuration-driven display budgets.
+### Marketplace ranking controller
+Constrained ranking interventions driven by marketplace financial state, with hourly optimization, feasibility checks, stateful feedback, and auditable publication.
 
-### Guarantee-ranking controller
-Built a live controller that translates marketplace financial state into constrained ranking interventions using hourly PySpark optimization, feasibility checks, auditable Delta decision logs, and Kafka publication.
+**Technical article:** planned.
 
-### Booking / close hazard framework
-Designed a discrete-time formulation connecting exposure, booking probability, and expected marketplace P&L, with a preliminary prototype on approximately 2.48M observations.
+### Booking / close hazard modeling
+Discrete-time modeling of booking and close hazards across lead time, with exposure effects, survival structure, and expected marketplace value.
 
-### Personalization infrastructure
-Engineered Spark Structured Streaming/Kafka scoring infrastructure around inherited user/item representations, including stateful event handling, vector scoring, top-K generation, and production-oriented fallback paths.
+**Technical article:** planned.
 
-## Core stack
+### Streaming personalization infrastructure
+Stateful personalization scoring with Kafka and Spark Structured Streaming around user/item representations, vector scoring, top-K generation, and fallback paths.
 
-<table>
-<tr>
-<td width="20%"><b>Languages</b><br/>Python<br/>SQL<br/>Go</td>
-<td width="20%"><b>ML</b><br/>Ranking<br/>Recommenders<br/>Personalization<br/>Survival / hazard</td>
-<td width="20%"><b>Data systems</b><br/>Spark<br/>Kafka<br/>Airflow<br/>Hive / Delta</td>
-<td width="20%"><b>Search & services</b><br/>Elasticsearch<br/>FastAPI<br/>GraphQL<br/>REST APIs</td>
-<td width="20%"><b>Engineering</b><br/>Docker<br/>Linux<br/>Git / CI-CD<br/>Monitoring</td>
-</tr>
-</table>
+**Technical article:** planned.
 
-## Background
+### Experiment integrity for ranking systems
+Assignment, delivery, logging integrity, SRM checks, mechanism diagnostics, and decision-readiness before interpreting experiment outcomes.
 
-B.Sc. in Aerospace Engineering from K. N. Toosi University of Technology. My control and systems background continues to influence how I approach ranking, online decision-making, and marketplace optimization problems.
+**Technical article:** planned.
 
-> I am most interested in engineering systems that make difficult decisions measurable, testable, and operable in the real world.
+### Satellite ADCS Simulation
+Spacecraft attitude-determination and control simulation from my aerospace/control background.
+
+[View code](https://github.com/ArashXSafari/Satellite-ADCS-Simulation)
+
+---
+
+Python · Go · SQL · Spark · Kafka · Elasticsearch · FastAPI · PostgreSQL · Docker
